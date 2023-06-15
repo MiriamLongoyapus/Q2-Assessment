@@ -40,6 +40,14 @@
 # create subclasses for different types of recipes (e.g., `MoroccanRecipe`,
 # `EthiopianRecipe`, `NigerianRecipe`), each with their own unique properties and
 # methods.
+class Recipe:
+    def __init__(self,ingredients,preparationTime,cookingMethod,nutrition):
+        self.ingredients=ingredients
+        self.preparationTime=preparationTime
+        self.cookingMethod=cookingMethod
+        self.nutrition=nutrition
+    
+
 
 
 
@@ -51,7 +59,11 @@
 # create classes to model `Species`, `Predator`, `Prey`, etc., and think about how
 # these classes might relate to each other through inheritance.
 
-
+class wildlifePreservation:
+    def __init__(self,species,predator,prey):
+        self.species=species
+        self.predator=predator
+        self.prey=prey
 
 
 
@@ -63,6 +75,7 @@
 # you might model the `Artist`, `Performance`, and `Stage` classes, and consider
 # how you might use inheritance if there are different types of performances or
 # stages.
+
 
 
 

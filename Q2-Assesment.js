@@ -46,6 +46,18 @@ console.log(checkStory())
 // `EthiopianRecipe`, `NigerianRecipe`), each with their own unique properties and
 // methods.
 
+pseudocode
+// inputs>ingredients,preparationTime,cookingMethod,nutrition
+// output>handle recipes from different African countries, each with its unique ingredients, preparation time, cooking method, and nutritional information
+// create a class pass in attributes,create subclasses
+class Recipe{
+    constructor(this,ingredients,preparationTime,cookingMethod,nutrition){
+        this.ingredients=ingredients
+        this.preparationTime=preparationTime
+        this.cookingMethod=cookingMethod
+        this.nutrition=nutrition
+    }
+}
 
 // **Wildlife Preservation:** You're a wildlife conservationist working on a
 // program to track different species in a national park. Each species has its own
@@ -54,6 +66,13 @@ console.log(checkStory())
 
 // create classes to model `Species`, `Predator`, `Prey`, etc., and think about how
 // these classes might relate to each other through inheritance.
+class wildlifePreservation{
+    constructor(this,species,predator,prey){
+        this.species=species
+        this.predator=predator
+        this.prey=prey
+    }
+}
 
 
 
